@@ -1,0 +1,96 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 375px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0;
+
+}
+.footer-logo{
+    width:270px;
+    height: 200px;
+    margin-left: 100px;
+}
+.footercon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    flex-wrap: wrap;
+    min-height: 50px;
+    background-color: transparent;
+}
+
+.footer .flex1 {
+    color: #000000;
+   margin-left: 550px;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 17px;
+    min-height: 30px;
+
+}
+
+.footer .flex1 h5 {
+    align-self: flex-start;
+}
+
+.list1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    align-self: center;
+    justify-content: center;
+    min-height: 50px;
+    font-size: 13px;
+    padding: 0px 70px;
+    text-align: left;
+}
+
+.list1 li {
+    font-size: 13px;
+    margin: 7px -10px;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.list1 li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li a {
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.footertxt {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
